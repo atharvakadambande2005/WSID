@@ -1,0 +1,18 @@
+# Root Node.js files, if not required
+/node_modules/
+/dist/
+
+# React frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.*
+
+# Spring Boot backend
+/backend/target/
+/backend/src/main/resources/application-local.properties
+
+# Secrets
+.env
+.env.*
+!.env.example
